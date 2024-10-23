@@ -236,6 +236,21 @@
         });
         activateTab(0);
     }
+    if (doc.querySelector(".userhomelist.slider")) {
+        var slider = tns({
+          container: ".userhomelist.slider",
+          edgePadding: 30,
+          fixedWidth: 360,
+          items: 1,
+          swipeAngle: false,
+          speed: 400,
+          loop: false,
+          gutter: 16,
+          controls: false,
+          center: true,
+        });
+       
+      }
 
     
 })(window, document, tns);

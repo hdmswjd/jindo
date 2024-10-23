@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-.tabwrap {background:#F2F4FD;padding:20px 20px 40px;border-bottom-left-radius:20px;border-bottom-right-radius:20px ;box-shadow: 0 3px 3px 10px rgba(0,0,0,.15)}
-.tabwrap .tab-list ul {display:flex;justify-content: space-between;}
+.tabwrap {background:#F2F4FD;padding:20px 20px 40px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;box-shadow: 0 3px 10px rgba(0,0,0,.15)}
+.tabwrap .tab-list ul {display:flex;justify-content:space-between;}
 .tabwrap .tab-link {display:block;font-size:14px;font-weight:500;color:#9E9E9E;line-height:28px}
 .tabwrap .tab-link.active {color:#000;border-bottom:1.5px solid #000}
 .tabwrap .tab-cont {display:none;margin-top:30px}
@@ -9,4 +9,7 @@
 
 
 .userhomelist {white-space:nowrap;overflow-x:auto;-ms-overflow-style:none;scrollbar-width:none;}
-.userhomelist li {width:320px;height:60px}
+.userhomelist li {position:relative;display:inline-block;width:320px;height:60px;border-radius:10px;box-shadow:1px 1px 4px rgba(0,0,0,.15);background:#fff}
+.userhomelist li a {display:block;}
+.userhomelist li a strong {display:block}
+.userhomelist .item.ico1:after {content:'';position:absolute;left:50%;top:50%;transform: translate(-50%, -50%);background: url(../../../images/new/user/ico_alarm1.svg) center no-repeat;width:46.8px;height:45.9px;}
