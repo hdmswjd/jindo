@@ -8,8 +8,8 @@
 .tabwrap .tab-cont.active {display:block}
 
 
-.userhomelist {white-space:nowrap;overflow-x:auto;-ms-overflow-style:none;scrollbar-width:none;}
-.userhomelist li {position:relative;display:inline-block;width:320px;height:60px;border-radius:10px;box-shadow:1px 1px 4px rgba(0,0,0,.15);background:#fff}
+.userhomelist {}
+.userhomelist li {position:relative;width:320px;height:60px;border-radius:10px;box-shadow:1px 1px 4px rgba(0,0,0,.15);background:#fff}
 .userhomelist li a {display:block;}
 .userhomelist li a strong {display:block}
 .userhomelist .item.ico1:after {content:'';position:absolute;left:50%;top:50%;transform: translate(-50%, -50%);background: url(../../../images/new/user/ico_alarm1.svg) center no-repeat;width:46.8px;height:45.9px;}
