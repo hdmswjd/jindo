@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.tabwrap {background:#F2F4FD;padding:20px 20px 40px}
+.tabwrap {background:#F2F4FD;padding:20px 20px 40px;box-shadow: 0 3px 3px 10px rgba(0,0,0,.15)}
 .tabwrap .tab-list ul {display:flex;justify-content: space-between;}
 .tabwrap .tab-link {display:block;font-size:14px;font-weight:500;color:#9E9E9E;line-height:28px}
 .tabwrap .tab-link.active {color:#000;border-bottom:1.5px solid #000}
