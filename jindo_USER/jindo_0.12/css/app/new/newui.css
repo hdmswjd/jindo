@@ -1,4 +1,12 @@
 @charset "UTF-8";
 
+.tabwrap {background:#F2F4FD;padding:20px 20px 40px}
+.tabwrap .tab-list ul {display:flex;justify-content: space-between;}
+.tabwrap .tab-link {display:block;font-size:14px;font-weight:500;color:#9E9E9E;line-height:28px}
+.tabwrap .tab-link.active {color:#000;border-bottom:1.5px solid #000}
+.tabwrap .tab-cont {display:none;margin-top:30px}
+.tabwrap .tab-cont.active {display:block}
 
-.tabwrap {}
+
+.userhomelist {white-space:nowrap;overflow-x:auto;-ms-overflow-style:none;scrollbar-width:none;}
+.userhomelist li {width:320px;height:60px}

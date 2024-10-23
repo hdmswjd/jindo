@@ -212,4 +212,30 @@
       slider.events.on("indexChanged", illuminateSelectedIndex);
     }
   }
+
+    //일반유저 홈
+    if (doc.querySelector(".tabwrap")) {
+        const tabs = document.querySelectorAll('.tab-link');
+        const tabContents = document.querySelectorAll('.tab-cont');
+        function activateTab(index) {
+            tabs.forEach((tab, i) => {
+                if (i === index) {
+                    tab.classList.add('active');
+                    tabContents[i].classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                    tabContents[i].classList.remove('active');
+                }
+            });
+        }
+        tabs.forEach((tab, index) => {
+            tab.addEventListener('click', function (event) {
+                event.preventDefault();
+                activateTab(index);
+            });
+        });
+        activateTab(0);
+    }
+
+    
 })(window, document, tns);
